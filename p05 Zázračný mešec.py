@@ -3,7 +3,7 @@ from random import*
 
 bigz = Tk()
 bigz.title('Zázračný mešec')
-bigz .geometry("500x500")
+bigz.geometry("500x500")
 WIDTH = 500
 HEIGHT = 500
 
