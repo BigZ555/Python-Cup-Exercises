@@ -1,6 +1,5 @@
 from tkinter import*
 from random import*
-from PIL import ImageTk, Image
 
 bigz = Tk()
 bigz.title('Zázračný mešec')
