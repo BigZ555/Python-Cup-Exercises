@@ -8,8 +8,8 @@ bigz .geometry("500x500")
 WIDTH = 500
 HEIGHT = 500
 
-mesecobr = ImageTk.PhotoImage(Image.open("mesec.png"))
-mincaobr = ImageTk.PhotoImage(Image.open("minca.png"))
+mesecobr = PhotoImage(file="mesec.png")
+mincaobr = PhotoImage(file="minca.png")
 
 canvas = Canvas(bigz, width = WIDTH, height = HEIGHT, bg="#99FFFF")
 canvas.pack()
